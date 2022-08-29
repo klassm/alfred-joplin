@@ -5,8 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "postinstall": "alfred-link",
-    "preuninstall": "alfred-unlink",
+    "alfredLink": "alfred-link",
     "alfredPackage": "rm -f alfred-joplin.alfredworkflow && zip alfred-joplin.alfredworkflow ./* -x@alfred_package.ignore"
   },
   "author": "",
