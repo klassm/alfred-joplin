@@ -1,0 +1,6 @@
+.idea
+.env
+.git
+*.iml
+alfred_package.ignore
+*.alfredworkflow

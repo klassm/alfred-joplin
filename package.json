@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "alfred-link",
-    "preuninstall": "alfred-unlink"
+    "preuninstall": "alfred-unlink",
+    "alfredPackage": "rm -f alfred-joplin.alfredworkflow && zip alfred-joplin.alfredworkflow ./* -x@alfred_package.ignore"
   },
   "author": "",
   "license": "ISC",
